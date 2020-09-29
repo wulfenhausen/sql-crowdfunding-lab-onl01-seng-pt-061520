@@ -8,7 +8,7 @@
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_title
   "SELECT 
-    projects.titles, SUM(pledge_amount) FROM 
+    pledges.project_id, SUM(pledge_amount) FROM 
   "
 end
 
